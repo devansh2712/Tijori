@@ -1,0 +1,96 @@
+.customnav{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.customnavitems{
+    margin-left: 130px;
+}
+
+.customnavitem{
+    font-size: 1.35em;
+    font-weight: 700;
+}
+.nav-item{
+    margin-left: 37px;
+}
+.pageshift{
+    margin-left: 175px;
+    margin-top: 80px;
+}
+.sloganfooter{
+    
+    font-size: 1.2em;
+    font-weight: 700;
+    
+    margin-top: 30px;
+}
+.br-large{
+    display: block; 
+    margin-bottom: 0.3em;
+}
+
+.getstarted{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.gtbtn{
+    
+    width: 17rem;
+    height: 4rem;
+    
+}
+.gttext{
+    margin-top: 7px;
+}
+.navbtn{
+    width: 6.5rem;
+    
+    font-size: medium;
+}
+.logincard{
+    margin-left: 3rem;
+}
+.loginform{
+    margin-top: 30px;
+}
+
+
+.card{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.form-control{
+    height: 50px;
+}
+.submitbtn{
+    margin-top: 30px;
+    height: 3rem;
+    font-size: medium;
+}
+.merchcheck{
+    margin-left: 10px;
+}
+
+.homeart{
+    width: 700px;
+    margin-left: 10rem;
+}
+.loginart{
+    width: 70%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.unifooter{
+    margin-top: 100px;
+}
+.registrationform{
+    margin-top: 2rem;
+}
+.regnavtab{
+    margin-left: 3rem;
+}
+.regnavbtn{
+    width: 15rem;
+   
+}
