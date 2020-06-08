@@ -9,7 +9,7 @@
 
 .customnavitem{
     font-size: 1.35em;
-    font-weight: 700;
+    font-weight: 600;
 }
 .nav-item{
     margin-left: 37px;
@@ -21,7 +21,7 @@
 .sloganfooter{
     
     font-size: 1.2em;
-    font-weight: 700;
+    font-weight: 400;
     
     margin-top: 30px;
 }
@@ -100,15 +100,21 @@
 }
 .dashsidenav{
     height: 6rem;
-    width: 20rem;
+    width: auto;
     font-size: x-large;
-    font-weight: bolder;  
+    font-weight: 600;  
 }
 .invcards{
-    width: 18rem;
-     height: 24rem;
+    width: auto;
+     height: auto;
 }
 .invcardimage{
     width: 14em;
     height: 14em;
+}
+
+.walletbal{
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: rgb(0, 189, 170);
 }

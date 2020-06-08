@@ -3,7 +3,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/main.css">
@@ -31,6 +31,10 @@
                   <a class="nav-link customnavitem" href="#">Features</a>
                 </li>
                 <li class="nav-item active">
+                    <a class="nav-link customnavitem" href="investor_profile.html">
+                        <i class="far fa-user" style="padding-right: 10px;"></i>John Doe</a>
+                  </li>
+                <li class="nav-item active">
                   <a class="nav-link customnavitem btn btn-secondary btn-lg navbtn text-white" href="home.html">Log Out</a>
                 </li>
                 
@@ -52,10 +56,10 @@
             <div class="row">
                 <div class="col-3">
                   <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link dashsidenav active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                    <a class="nav-link dashsidenav" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
                         <i class="fas fa-store fa-lg" style="padding-right: 1rem;"></i>
                         What's Near You</a>
-                    <a class="nav-link dashsidenav" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                    <a class="nav-link dashsidenav active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
                         <i class="fas fa-wallet fa-lg" style="padding-right: 1rem;"></i>
                         Wallet</a>
                     <a class="nav-link dashsidenav" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
@@ -68,7 +72,7 @@
                 </div>
                 <div class="col-9">
                   <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                         <div class="row">
                             <div class="col-3">
                                 <div class="card invcards z-depth-3--hover">
@@ -82,11 +86,11 @@
                                     </div>  
                                 </div>
                             </div>
-                            <div class="col-3">
+                            
                                 <div class="col-3">
                                     <div class="card invcards z-depth-3--hover">
                                         <center>
-                                            <img src="../assets/salman.svg" class="card-img-top invcardimage">
+                                            <img src="../assets/salman.png" class="card-img-top invcardimage">
                                         </center>
                                         <div class="card-body">
                                           <h5 class="card-title">Salman Saloon</h5>
@@ -96,8 +100,8 @@
                                       
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-3">
+                            
+                            
                                 <div class="col-3">
                                     <div class="card invcards z-depth-3--hover">
                                         
@@ -111,7 +115,7 @@
                                         </div>  
                                     </div>
                                 </div>
-                            </div>
+                            
                         </div>
                         <br><br>
                         <div class="row">
@@ -128,7 +132,7 @@
                                     </div>  
                                 </div>
                             </div>
-                            <div class="col-3">
+                            
                                 <div class="col-3">
                                     <div class="card invcards z-depth-3--hover">
                                         <center>
@@ -142,11 +146,101 @@
                                       
                                     </div>
                                 </div>
-                            </div>
+                            
                             
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                    <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <div class="row">
+                            <div class="col-md-9 col-">    
+                                <div class="card  z-depth-3">
+                                
+                                    <div class="card-body ">
+                                        <br>
+                                        <h3 class="font-weight-bold text-center">My Wallet</h3>
+                                        
+                                        <!-- <div class="container mt-4 border border-dark rounded" style="display:flex; align-items: center;">
+                                            <span class="h2" > <i class="fas fa-money-bill"></i></span>
+                                            <span class="">Balance</span>
+                                        </div> -->
+                                        <div class="container mt-4">
+                                            
+                                            <div class="row">
+                                                <div class="col-10">
+                                                    <p class="nav-link  text-dark" href="investor_profile.html" style="font-size: x-large; font-weight: 600;">
+                                                        <svg style="width: 40px"fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                                    &nbsp;&nbsp;<span class="border-right border-dark pr-3 ">Balance</span>
+                                                    
+                                                    </p>
+                                                </div>
+                                                <div class="col-2">
+                                                    <span class="text-green  text-right" style="font-size: x-large; font-weight: 600;">$500</span>
+                                                </div>   
+                                                
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    <h6 class="ml-4 mt-4">&nbsp;&nbsp;&nbsp;Add Money to your wallet</h6>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    
+                                                    <input type="text" class="form-control ml-4 mt-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Amount (In rupees)"> 
+                                                </div>
+                                                <div class="col-3 mx-4">
+                                                    <button type="button" class="btn btn-lg btn-secondary mt-1">Add Money</button>
+                                                </div>
+                                            </div>    
+                                            <div class="row">
+                                                <div class="col-11">
+                                                    <center>
+                                                    <table class="table mt-5 ml-4 text-center" >
+                                                        <thead class="thead bg-transparent  ">
+                                                          <tr>
+                                                            <th scope="col">TransactionsId</th>
+                                                            <th scope="col">Merchant Name</th>
+                                                            <th scope="col">Status</th>
+                                                            <th scope="col">Amount</th>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                          <tr>
+                                                            <th class="text-secondary" scope="row">
+                                                                1001</th>
+                                                            <td>Mark</td>
+                                                            <td class="text-green">Success</td>
+                                                            <td class="text-danger">-$200</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th class="text-secondary" scope="row">
+                                                                1002</th>
+                                                            <td>Jacob</td>
+                                                            <td class="text-green">Success</td>
+                                                            <td class="text-danger">-$400</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <th class="text-secondary       " scope="row">
+                                                                1003</th>
+                                                            <td>Icici Bank</td>
+                                                            <td class="text-green">Success</td>
+                                                            <td class="text-green">+$1100</td>
+                                                          </tr>
+                                                        </tbody>
+                                                      </table>
+                                                    </center>
+                                                      
+                                                </div>
+                                            </div>                                         
+                                            
+                                        </div>
+                                    </div>  
+                                
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
                   </div>
